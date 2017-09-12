@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import "VideoSource.h"
 
 @interface ViewController : UIViewController
-
-
+    <AVCaptureVideoDataOutputSampleBufferDelegate>
+{
+    
+    IBOutlet UIView *previewView;
+    VideoSource *videoSource;
+}
+- (void) initializeCaptureSession;
 @end
 
