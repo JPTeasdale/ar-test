@@ -1,0 +1,1 @@
+Download, unzip and and link opencv2.framework from http://johnteasdale.s3.amazonaws.com/MacFrameworks/opencv2.framework.zip
